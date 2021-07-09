@@ -68,7 +68,7 @@ def main():
             # -> Generate the plots
             for const, freqs in const_freq_list.items():
                 for freq in freqs:         
-                    g1.plotCN0(const=const, freq=freq, pdf=pdf)
+                    g1.plotCN0_2(const=const, freq=freq, pdf=pdf)
             pdf.close()
 
             # Move input files to a permanent directory
