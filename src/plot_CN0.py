@@ -17,8 +17,11 @@
 from matplotlib.backends.backend_pdf import PdfPages
 from septentrio_tools import ProcessSBF as sbf
 from septentrio_tools import PlotsISMR
+import warnings 
 import glob 
 import os 
+
+warnings.filterwarnings("ignore")
 
 # Declare input and output paths 
 root_path = "/home/cesar/Desktop/luisd/scripts/Graficas_desvanecimientos/"
